@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Basics of HTML in 5 minutes</title>
+        </head>
+        <body>
+            <h1>Basics of HTML in 5 minutes</h1>
+            <h2>General HTML</h2>
+            <h3>What is HTML?</h3>
+            <p>
+                HTML (Hyper Text Markup Language) is the standard language for developing internet pages.
+                Most likely, every webpage you've ever visited has been made in HTML. All common browsers
+                (Google Chrome, Microsoft Edge/Internet Explorer, Firefox, Opera) all clearly present HTML.
+                In this document, you will learn HTML5.
+            </p>
+            <h3>Why should I learn it?</h3>
+            <p>
+                As mentioned earlier, HTML is the standard language for coding websites. Even if you plan a
+                career not into web development, learning this will help you out a lot.
+            </p>
+            <h3>Important Notices:</h3>
+            <ul>
+                <li>This course does not go in depth about CSS and Javascript.</li>
+                <li>
+                    To learn programming, you need to put effort. If you don't want to do programming in your future,
+                    then don't learn coding.
+                </li>
+                <li>HTML is one of the easiest (if not THE easiest) coding language to learn.</li>
+                <li>
+                    To help you learn, this course will ask you to create your own files. Please note that,
+                    while not taking too much space, learning HTML will take up some space (not much, don't worry!).
+                </li>
+                <li>
+                    This is made entirely with the client's (consumer, or YOU) best interest.
+                    Donations, subscribing, following, or anything of the sort will NOT be put in this project.
+                </li>
+                <li>Have fun.</li>
+            </ul>
+            <h2>Getting Started</h2>
+            <p>
+                Before you go coding, you need materials. This includes a text editor
+                (which edits text, surprise), a file (to store the code somewhere),
+                and basic computer skills (copy and paste, basics of how a computer works,
+                software requirements). Scroll down to see your requirements.
+                <br>
+                Text Editors:
+                <ul>
+                    <li>
+                        <a href="https://www.sublimetext.com/">Sublime Text</a>
+                    </li>
+                    <li>
+                        <a href="https://notepad-plus-plus.org/">Notepad++</a>
+                    </li>
+                    <li>
+                        <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Okay, now that you know that, now its time for the fun:
+            </p>
+            <b>
+                In your computer, open a new text file and rename it something simple like "firstproject.html".
+                It doesn't matter what the name of the file is, but the file must end with .html.
+                <br>
+                Open it with your text editor.
+            </b>
+            <p>Now type the following:</p>
+            <hr>
+            <code>
+                <p>&lt;!DOCTYPE&gt;</p>
+                <p>&lt;head&gt;</p>
+                <p>&lt;title&gt; My first title! &lt;/title&gt;</p>
+                <p>&lt;/head&gt;</p>
+                <p>&lt;body&gt;</p>
+                <p>&lt;p&gt; This is my first HTML sentence! Woo hoo! &lt;/p&gt;</p>
+                <p>&lt;/body&gt;</p>
+            </code>
+            <hr>
+            <p>Now, save it manually or the recommended way (ctrl + s), and open it up on your browser!</p>
+            <p>Congrats! You made a <b>sentence</b>.</p>
+            <p>
+                Let's analyse it. Hopefully, the first thing you noticed is this:
+                <br>
+                <code>&lt;body&gt;</code>
+                <BR>
+                This is called a tag. It contains a < symbol, a few letters, and a > symbol.
+                <br>
+                What does this do? It tells whatever is inside of it (whatever is in the &lt; and &gt;)
+                to function in a specific way. Another thing you should notice is that it is surrounded
+                by TWO tags. This will limit what is inside or outside the tag!
+                <br>
+                You will also notice that the ending tag has a "/". Why? This will tell the code
+                that it will end <b>there</b>.
+                <br>
+                The tag is the most important function in HTML.
+            </p>
+            <p>
+                Now, delete everything and just type in  the following and refresh (or reopen) your file.
+                <br>
+                <code>This is my second HTML sentence! Yee haw!</code>
+                <br>
+                Why do does this sentence appear even though it has no tag to tell it
+                to appear?
+                <br>
+                <br>
+                That is because HTML is a very forgiving language.
+                <br>
+                This is the main reason why HTML is a great language for beginners-
+                one tiny mistake won't break the whole picture. 
+                <br>
+                You will learn about this in depth in later chapters.
+            </p>
+            <p>Now, let's experiment with more tags.</p>
+            <p>In your code, try the following: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;, &lt;h7&gt;, &lt;b&gt;, and &lt;i&gt;.</p>
+            <p>You should get the following results:</p>
+            <h1>Hello world.</h1>
+            <h2>Hello world.</h2>
+            <h3>Hello world.</h3>
+            <h4>Hello world.</h4>
+            <h5>Hello world.</h5>
+            <h6>Hello world.</h6>
+            <h7>Hello world.</h7>
+            <br>
+            <b>Hello world.</b>
+            <br>
+            <i>Hello world.</i>
+            <br>
+            <p>
+                Hey, how come &lt;h7&gt; doesn't work? That's because that tag doesn't exist.
+                In the &lt;h&gt; family, the tags only range from 1~6. All tags that don't work
+                (or don't exist) will have the &lt;p&gt; tag by default.
+                <br>
+                If you have visual studio code, you'll notice it autocompletes just about everything.
+                <br>
+                Experiment with these and many other tags.
+                Some tags, you'll notice, won't end with an ending tag, like &lt;br&gt; or &lt;hr&gt;.
+                That is because they don't accept text "inside" of them.
+            </p>
+            <p>The &lt;br&gt; tag adds a space in the next row of a web page from the tag before it.</p>
+            <hr>
+            <b>For example, this is bold text.</b>
+            <br>
+            <i>Now this is italic text, one gap below the bold text.</i>
+            <br>
+            <br>
+            <del>And now this is deleted text, 2 gaps below the italic text.</del>
+            <hr>
+            <p>The &lt;hr&gt; tag creates perfectly horizontal lines, like this.</p>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <p>That was one line. You can make many.</p>
+            <br>
+            <br>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <p>These lines can be manipulated to be big or small, wide or thin, of any colour. Look below.</p>
+            <br>
+            <br>
+            <hr style="color:blue">
+            <br>
+            <br>
+            <hr style="width:200px">
+            <br>
+            <br>
+            <hr style="height: 100px;">
+            <br>
+            <br>
+            <p>Here, I used the inline styling of <b>color:blue;</b>, <b>width:200px;</b>, and <b>height:100px;</b>, in respective order.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Now that you know about the basic tags of HTML5, practice with these, research more tags online, and enjoy programming!</h2>
+        </body>
+    </html>
